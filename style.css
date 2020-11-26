@@ -62,42 +62,26 @@ a:hover {
 }
 
 
-@media(max-width: 576px) {
+@media (max-width: 1200px) {
   .container {
-    width: 500px;
-  }
-  
-  .banner {
-    background-size: cover;
+    width: 1000px;
   }
 }
 
-@media(max-width: 768px) {
+@media (max-width: 992px) {
   .container {
     width: 700px;
   }
+}
 
-  .banner {
-    background-size: cover;
+@media (max-width: 768px) {
+  .container {
+    width: 500px;
   }
 }
 
-@media(max-width: 992px) {
+@media (max-width: 576px) {
   .container {
-    width: 900px;
-  }
-
-  .banner {
-    background-size: cover;
-  }
-}
-
-@media(max-width: 1200px) {
-  .container {
-    width: 1100px;
-  }
-
-  .banner {
-    background-size: cover;
+    width: 200px;
   }
 }
